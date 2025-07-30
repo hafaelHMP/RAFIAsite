@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pagamento Aprovado - Obrigado!</title>
+  <style>
+    /* (Mantido o mesmo estilo original para consistência visual) */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #030303;
+      color: #fff;
+      font-size: 10px;
+      padding: 1vw 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-section {
+      position: relative;
+      background-image: url('foguete.jpg');
+      background-size: cover;
+      background-position: center 20%;
+      height: 25rem;
+      width: 100%;
+    }
+
+    .caixa-informativa {
+      font-size: clamp(14px, 8vw, 52px);
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 70%;
+      background-color: rgba(0, 0, 0, 0.9);
+      color: #ffffff;
+      border: 2px solid white;
+      padding: 20px;
+      text-align: center;
+      z-index: 5;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      font-style: italic;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4vh 2vw;
+    }
+
+    .mensagem {
+      max-width: 800px;
+      font-size: clamp(16px, 2vw, 24px);
+      text-align: center;
+      margin-top: 5vh;
+      line-height: 1.6;
+    }
+
+    .check {
+      font-size: 4rem;
+      color: #00c972;
+      margin-bottom: 2vh;
+    }
+
+    footer {
+      background-color: #030303;
+      color: #fff;
+      font-size: 12px;
+      padding: 1vw 0;
+      text-align: center;
+      margin-top: 10vh;
+
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho igual -->
+  <header>
+    <div class="container">
+      <h1 style="margin-left: 1vw;">Dê o próximo salto.</h1>
+      <a href="index.html">
+        <img src="logocoelho.webp" alt="Logo" style="width: 50px; height: auto; margin-left: 15vw;">
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero com imagem de fundo e caixa sobreposta -->
+  <div class="hero-section">
+    <div class="caixa-informativa">
+      Pagamento aprovado com sucesso! 🥳
+    </div>
+  </div>
+
+  <!-- Conteúdo principal diferente -->
+  <main>
+
+    <div class="check">✔️</div>
+    <div class="mensagem">
+      Obrigado pela sua confiança! <strong>Agora:</strong><br /><br />
+
+      <strong>•</strong> O Website Profissoinal da sua empresa já está sendo publicado Online com o seu próprio domínio.<br />
+
+      <strong>•</strong> O Marketing no Google do seu negócio já está sendo feito e/ou publicado neste exato momento, para toda a sua cidade ver o profissionalismo e qualidade que sua empresa oferece.<br />
+
+      <strong>•</strong> E o seu atendente virtual já está em fase de programação e ativação - O seu atendente automatizado que não irá deixar você perder clientes para seus concorrentes.<br /><br />
+
+      Assim que uma atualização surgir, você receberá atualizações via WhatsApp com o andamento de cada etapa.<br /><br />
+      Se precisar de qualquer coisa, estamos prontos para te ajudar. Sua jornada profissional acaba de começar com o pé direito!
+    </div>
+
+  </main>
+
+  <!-- Rodapé com nova mensagem -->
+  <footer>
+    <div class="container">
+      Estamos ao seu lado em cada passo da sua presença digital.<br />
+      © 2025 - Profissionalismo começa aqui.
+    </div>
+  </footer>
+
+</body>
+</html>
